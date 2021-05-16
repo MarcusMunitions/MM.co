@@ -1,0 +1,60 @@
+/* @import url('insert font here'); */
+
+body {
+    background-color: salmon; 
+    margin: 0;
+    font-family: 'insert font here', sans-serif;    
+}
+
+.header {
+     background-color: grey;
+    height: 120px;
+    border-bottom: 6px solid white;
+    
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 950px;
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+}
+
+.logo img {
+    border: 5px solid #FF530D;
+    max-width: 112px;
+    width: 100%;
+    
+}
+
+.links {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    text-align: right;
+    color: white;
+    font-size: 15px;
+}
+
+.links a{
+    color: #FF530D;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+}
+
+.imgContainer {
+    test
+}
