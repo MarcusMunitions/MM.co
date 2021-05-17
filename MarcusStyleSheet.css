@@ -8,17 +8,17 @@ body {
 
 .header {
      background-color: grey;
-    height: 120px;
+    height: 140px;
     border-bottom: 6px solid white;
     
 }
 
 .nav {
     display: grid;
-    grid-template-columns: 200px auto;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 950px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    margin-right: 50px;
+    max-width: 550px;
     width: 100%;
 }
 
@@ -27,6 +27,8 @@ body {
     font-weight: bold;
     font-style: oblique;
     color: white;
+    grid-column: 1;
+    padding-top: 10px;
 }
 
 .logo img {
@@ -51,10 +53,23 @@ body {
     text-decoration: none;
 }
 
+.links img{
+    height: 10%;
+    position: absolute;
+    grid-column: auto;
+    border: 5px solid #FF530D;
+    
+}
+
 .white {
     color: white;
 }
 
 .imgContainer {
-    test
+    
 }
+
+.stores {
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+}
+
