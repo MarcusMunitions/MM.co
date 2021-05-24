@@ -1,0 +1,41 @@
+Homepage
+
+Banner Done
+Nav Bar - No Border / Icons. Just Writing to Nav.
+Each Brand Button bg'd by texture.
+Blurred bg behind guns on brand page and gun page.
+
+
+
+
+
+
+
+
+Logo = Marcus2 Cropped
+
+Need :
+
+Rescaling photos - Luke
+Rescaling pages - Rob
+Home page, Brand page - Rob
+Gun page - Luke
+Similar Font to Compacta Bold - Both (maybe done)
+Colour Schemes - Luke
+- Hyperion
+- CoV
+- Torgue
+- Jakobs
+
+Backgrounds / Textures - Bg Luke Text Rob
+- Blurred backgrounds screenshots (at least 2) for each brand
+- One Texture bg for brands
+
+
+
+404? - Both
+
+Gun Descriptions "Have enemies, but nothing to shoot them with?
+
+Customer Rating : A++
+In Stock : Low"
