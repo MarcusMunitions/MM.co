@@ -73,6 +73,12 @@ body {
 
 .stores {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
+.stores img{
+    height: 400px;
+    max-width: 1250px;
+    border: 10px solid black;
+    text-align: center;
+}
