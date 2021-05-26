@@ -25,16 +25,9 @@ body {
     width: 100%;
 }
 
-/* .logo {
-    text-align: center;
-    font-weight: bold;
-    font-style: oblique;
-    grid-column: 1;
-    padding-top: 10px;
-} */
+
 
 .logo img {
-    /* border: 5px solid slategrey; */
     max-width: 112px;
     width: 100%;
     margin-top: 10px;
@@ -71,14 +64,89 @@ body {
     grid-column: 2/3;
 }
 
+
+
+.descript {
+    height: 100px;
+    background-color: slategray;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color: #FF530D;
+}
+
 .stores {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: black;
+    padding: 30px;
+}
+
+.CoV{
+    grid-column: 1;
+    grid-row: 1;
+    left: 0;
+    top: 0;
+}
+
+.Hyperion {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.Jakobs {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.Torgue {
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .stores img{
     height: 400px;
-    max-width: 1250px;
-    border: 10px solid black;
-    text-align: center;
+    max-width: 850px;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+    left: auto;
+    top: auto;
+}
+
+.brandCoV img {
+    object-fit: contain;
+    position: absolute;
+    left: 220px;
+    top: 900px;
+    z-index: 2;
+    width: 400px;
+}
+
+.brandHyp img {
+    object-fit: contain;
+    position: absolute;
+    left: 1220px;
+    top: 900px;
+    z-index: 2;
+    width: 300px;
+}
+
+.brandJak img {
+    object-fit: contain;
+    position: absolute;
+    left: 250px;
+    top: 1300px;
+    z-index: 2;
+    width: 350px;
+}
+
+.brandTor img {
+    object-fit: contain;
+    position: absolute;
+    left: 1200px;
+    top: 1300px;
+    z-index: 2;
+    width: 400px;
 }
