@@ -97,6 +97,34 @@ body {
     
 }
 
+.Tor {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-left: 22vw;
+}
+
+.Tor img {
+    width: 600px;
+    position: absolute;
+    object-fit: contain;
+    z-index: 2;
+    
+}
+
+.COV {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-left: 26vw;
+}
+
+.COV img {
+    width: 600px;
+    position: absolute;
+    object-fit: contain;
+    z-index: 2;
+    
+}
+
 .descript {
     height: 100px;
     background-color: black;
@@ -197,13 +225,14 @@ body {
     z-index: 1;
     left: auto;
     top: auto;
+    padding: 20px;
 }
 
 .brandCoVTwo img {
     object-fit: contain;
     position: absolute;
-    left: 220px;
-    top: 900px;
+    left: 250px;
+    top: 700px;
     z-index: 2;
     width: 400px;
 }
@@ -211,8 +240,8 @@ body {
 .brandHypTwo img {
     object-fit: contain;
     position: absolute;
-    left: 1220px;
-    top: 900px;
+    left: 1200px;
+    top: 700px;
     z-index: 2;
     width: 300px;
 }
@@ -221,7 +250,7 @@ body {
     object-fit: contain;
     position: absolute;
     left: 220px;
-    top: 1270px;
+    top: 1200px;
     z-index: 2;
     width: 500px;
 }
@@ -229,8 +258,8 @@ body {
 .brandTorTwo img {
     object-fit: contain;
     position: absolute;
-    left: 1200px;
-    top: 1300px;
+    left: 1150px;
+    top: 1200px;
     z-index: 2;
     width: 400px;
 }
