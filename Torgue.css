@@ -17,9 +17,15 @@ img {
     max-width: 100%;
 }
 
-#nav d-none d-md-block {
+#nav{
     height: 15vh;
-    
+}
+
+#nav a {
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 15;
+    color: black;
 }
 
 .col-md-2 {
@@ -32,7 +38,13 @@ img {
 }
 
 #gun {
-    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    
 }
 
 
@@ -47,19 +59,22 @@ img {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    margin-left: 8vw;
+    margin-left: 5vw;
     margin-right: 8vw;
     max-height: 50vh;
     position: relative;
+    min-width: 30vw;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 50px;
+    font-size: 5vh;
 }
 
 p {
     text-align: center;
+    
 }
 
 .btn {
@@ -89,7 +104,12 @@ p {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    text-align: center;   
+    text-align: center;  
+}
+
+#quote {
+    font-size: 20px;
+    color: #EABF44;
 }
 
 
