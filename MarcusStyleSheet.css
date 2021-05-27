@@ -64,14 +64,45 @@ body {
     grid-column: 2/3;
 }
 
+.imgContainerTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    height: 400px;
+}
 
+.imgContainerTwo img { 
+    padding-right: 100px;
+    text-align: center;
+    grid-column: 2/3;
+    height: 400px;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+    left: auto;
+    top: auto;
+}
+
+.Hyp {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-left: 25vw;
+}
+
+.Hyp img {
+    width: 600px;
+    position: absolute;
+    object-fit: contain;
+    z-index: 2;
+    
+}
 
 .descript {
     height: 100px;
-    background-color: slategray;
+    background-color: black;
     text-align: center;
     font-size: 30px;
-    padding: 10px;
+    padding: 30px;
     color: #FF530D;
 }
 
@@ -86,8 +117,7 @@ body {
 .CoV{
     grid-column: 1;
     grid-row: 1;
-    left: 0;
-    top: 0;
+
 }
 
 .Hyperion {
@@ -136,10 +166,10 @@ body {
 .brandJak img {
     object-fit: contain;
     position: absolute;
-    left: 250px;
-    top: 1300px;
+    left: 220px;
+    top: 1270px;
     z-index: 2;
-    width: 350px;
+    width: 500px;
 }
 
 .brandTor img {
@@ -150,3 +180,58 @@ body {
     z-index: 2;
     width: 400px;
 }
+
+.storesTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: black;
+    padding: 50px;
+}
+
+.storesTwo img{
+    height: 500px;
+    max-width: 820px;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+    left: auto;
+    top: auto;
+}
+
+.brandCoVTwo img {
+    object-fit: contain;
+    position: absolute;
+    left: 220px;
+    top: 900px;
+    z-index: 2;
+    width: 400px;
+}
+
+.brandHypTwo img {
+    object-fit: contain;
+    position: absolute;
+    left: 1220px;
+    top: 900px;
+    z-index: 2;
+    width: 300px;
+}
+
+.brandJakTwo img {
+    object-fit: contain;
+    position: absolute;
+    left: 220px;
+    top: 1270px;
+    z-index: 2;
+    width: 500px;
+}
+
+.brandTorTwo img {
+    object-fit: contain;
+    position: absolute;
+    left: 1200px;
+    top: 1300px;
+    z-index: 2;
+    width: 400px;
+}
+
