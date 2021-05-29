@@ -17,7 +17,12 @@
         <div class="container">
             <div class="row" id="nav">
                 <div  class="col-md-4">
-                    <a href="page1.html"><img src="imgs/MarcusHomeLogo.png"></a>
+                    <div class="col-md-2 d-none d-md-block">
+                        <a href="page1.html" ><img src="imgs/MarcusHomeLogo.png" class="home"></a>
+                    </div>
+                    <div class="d-md-none">
+                        <a href="page1.html"><img src="imgs/MarcusHomeLogo.png" class="homesm"></a>
+                    </div>
                 </div>
                 <div class="col-md-2 d-none d-md-block">
                     <a href="page2.html" class="links">Hyperion</a>
@@ -40,7 +45,7 @@
                             <h1>Monocle</h1>
                         </div>
                         <div>
-                            <p>The Monocle is designed to be used as a long-range precision weapon, as its extremely high zoom makes it difficult to use otherwise. </p>
+                            <p class="d-none d-lg-block">The Monocle is designed to be used as a long-range precision weapon, as its extremely high zoom makes it difficult to use otherwise. </p>
                         </div>
                         <div>
                             <button type="button" class="btn btn-primary btn-lg">Buy Now! $1000</button>

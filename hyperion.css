@@ -12,10 +12,15 @@
     max-width: 100vw;
 }
 
-img {
-    max-height: 100%;
-    max-width: 100%;
+.home {
+    height: 15vh; 
 }
+
+.homesm{
+    height: 15vh;
+    margin-left: 40vw;
+}
+
 
 #nav{
     height: 15vh;
@@ -63,7 +68,7 @@ img {
     margin-right: 8vw;
     max-height: 50vh;
     position: relative;
-    min-width: 30vw;
+    min-width: 25vw;
 }
 
 h1 {
