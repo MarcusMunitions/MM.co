@@ -119,15 +119,6 @@ body {
     text-align: center;
 }
 
-.imgContainerFour {
-    background-color: black;
-}
-
-.imgContainerFour img {
-    max-width: 100%;
-    text-align: center;
-}
-
 .imgContainerTwo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -157,8 +148,22 @@ body {
     width: 600px;
     position: absolute;
     object-fit: contain;
-    z-index: 2;
-    
+    z-index: 2;  
+}
+
+.HypTwo {
+    grid-column: 2/3;
+    grid-row: 1;
+    margin-left: 25vw;
+
+}
+
+.HypTwo img {
+    width: 50%;
+    position: absolute;
+    object-fit: contain;
+    z-index: 2; 
+    top: 160px;
 }
 
 .Tor {
@@ -253,6 +258,48 @@ body {
     top: auto;
 }
 
+.CoVMd {
+    grid-row: 1;
+    
+}
+
+.HyperionMd {
+
+    grid-row: 2;
+}
+
+.JakobsMd {
+
+    grid-row: 3;
+}
+
+.TorgueMd {
+
+    grid-row: 4;
+}
+
+.CoVsm {
+    grid-row: 1;
+    text-align: center;
+}
+
+.storesMd {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.storesMd img{
+    height: 400px;  
+    position: relative;
+    z-index: 1;
+    left: auto;
+    top: auto;
+}
+
 .brandCoV img {
     object-fit: contain;
     position: absolute;
@@ -287,6 +334,111 @@ body {
     top: 1300px;
     z-index: 2;
     width: 400px;
+}
+
+.brandCoVMd img {
+    object-fit: contain;
+    position: absolute;
+    left: 30vw;
+    z-index: 2;
+    width: 300px;
+} 
+
+
+.brandHypMd img {
+    object-fit: contain;
+    position: absolute;
+    left: 30vw;
+    z-index: 2;
+    width: 300px;
+}
+
+.brandJakMd img {
+    object-fit: contain;
+    position: absolute;
+    left: 30vw;
+    z-index: 2;
+    width: 350px;
+}
+
+.brandTorMd img {
+    object-fit: contain;
+    position: absolute;
+    left: 30vw;
+    z-index: 2;
+    width: 300px;
+}
+
+.storesSm {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: black;
+
+    
+}
+
+.storesSm img{
+    height: 200px;
+    
+    position: relative;
+    z-index: 1;
+    left: auto;
+    top: auto;
+}
+
+.storesSmTwo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    text-align: center;
+
+}
+
+.storesSmTwo img{
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    left: auto;
+    top: auto;
+}
+
+.brandCoVSm img {
+    object-fit: contain;
+    position: absolute;
+    left: 100px;
+    
+    z-index: 2;
+    width: 300px;
+} 
+
+
+.brandHypSm img {
+    object-fit: contain;
+    position: absolute;
+    left: 100px;
+    
+    z-index: 2;
+    width: 300px;
+}
+
+.brandJakSm img {
+    object-fit: contain;
+    position: absolute;
+    left: 100px;
+    
+    z-index: 2;
+    width: 350px;
+}
+
+.brandTorSm img {
+    object-fit: contain;
+    position: absolute;
+    left: 100px;
+    
+    z-index: 2;
+    width: 300px;
 }
 
 .storesTwo {
@@ -344,3 +496,75 @@ body {
     width: 400px;
 }
 
+.brandCoVTwoMd img {
+    object-fit: contain;
+    position: absolute;
+    left: 250px;
+    z-index: 2;
+    height: 200px;
+    top: 600px;
+}
+
+.brandHypTwoMd img {
+    object-fit: contain;
+    position: absolute;
+    left: 250px;
+    z-index: 2;
+    height: 200px;
+    top: 1000px;
+}
+
+.brandJakTwoMd img {
+    object-fit: contain;
+    position: absolute;
+    left: 250px;
+    z-index: 2;
+    height: 200px;
+    top: 1400px;
+}
+
+.brandTorTwoMd img {
+    object-fit: contain;
+    position: absolute;
+    left: 250px;
+    z-index: 2;
+    height: 200px;
+    top: 1900px;
+}
+
+
+.brandCoVTwoSm img {
+    object-fit: contain;
+    position: absolute;
+    left: 30vw;
+    z-index: 2;
+    height: 100px;
+    top: 500px;
+}
+
+.brandHypTwoSm img {
+    object-fit: contain;
+    position: absolute;
+    left: 30vw;
+    z-index: 2;
+    height: 100px;
+    top: 800px;
+}
+
+.brandJakTwoSm img {
+    object-fit: contain;
+    position: absolute;
+    left: 30vw;
+    z-index: 2;
+    height: 100px;
+    top: 1100px;
+}
+
+.brandTorTwoSm img {
+    object-fit: contain;
+    position: absolute;
+    left: 30vw;
+    z-index: 2;
+    height: 100px;
+    top: 1400px;
+}
